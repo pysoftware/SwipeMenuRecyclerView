@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RVtest</string>
+    <string name="undo">UNDO</string>
+    <string name="delete">Delete</string>
+</resources>

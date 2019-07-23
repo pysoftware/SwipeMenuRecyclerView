@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.aitsuki.swipe.SwipeItemLayout
+        android:layout_margin="8dp"
+        xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/swipe_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/left_menu"
+            android:layout_width="@dimen/swipe_item_menu_width"
+            android:layout_height="30dp"
+            android:layout_gravity="left"
+            android:background="@drawable/round_button"
+            android:gravity="center"
+            android:text="@string/delete"
+            android:textColor="@color/white"
+            tools:ignore="RtlHardcoded"/>
+
+    <include layout="@layout/swipe_content"/>
+
+</com.aitsuki.swipe.SwipeItemLayout>
